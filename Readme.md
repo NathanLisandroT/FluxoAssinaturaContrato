@@ -4,7 +4,7 @@ Este projeto descreve o fluxo completo de assinatura de documentos, utilizando P
 
 ## Visão Geral
 
-![Diagrama do Fluxo](https://imgur.com/a/xKbSEGw.png)
+![Diagrama do Fluxo](https://imgur.com/tN5AiGw.png)
 
 1. **Usuário Inicia a Ação**: O processo começa quando o usuário clica no botão "Assinar" no sistema.
 2. **Envio para PlugSign**: O sistema envia o documento para o PlugSign, onde um ID exclusivo é gerado.
