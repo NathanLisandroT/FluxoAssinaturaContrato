@@ -53,3 +53,10 @@ Aqui está um resumo do fluxo implementado:
 13. **Salvar Link da AWS no Botão "Baixar"**
 
 ![Fluxo do Front-end](https://imgur.com/GDjxnUZ.png)
+
+### OBSERVAÇÕES
+
+- Existe a implementação feita no `jsBeneficiario`, que é acionada quando o usuário **CLICA** em "Assinar Contrato".
+- **Atenção**: Quando o documento é enviado para o usuário assinar, no campo `Fields` é definido onde fica a assinatura. Esta implementação foi corretamente feita no arquivo `atendimentoParticular.js`.
+- O backend foi implementado no sigo-laravel em: **AssinaturaDigitalService** e **AssinaturaDigitalController**.
+- A transferencia do contrato do beneficiario para a base64 foi implementado no sigoweb.
